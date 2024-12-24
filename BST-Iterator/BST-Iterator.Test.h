@@ -42,7 +42,7 @@ void testcheck() {
     tesrtree.remove(5);
     assert(tesrtree.search(5) == false);
 
-    tesrtree.remove(10);
-    assert(tesrtree.search(10) == false);
+    tesrtree.remove(7);
+    assert(tesrtree.search(7) == false);
 
 };

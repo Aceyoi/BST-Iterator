@@ -130,9 +130,11 @@
     <ClCompile Include="BST-Iterator.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\BinTreeNode-master\TreeNode.Class.h" />
     <ClInclude Include="BST-Iterator.Class.h" />
     <ClInclude Include="BST-Iterator.Test.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="TreeNode.Class.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
